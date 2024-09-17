@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS persons (
+    person_key BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(128)
+);
